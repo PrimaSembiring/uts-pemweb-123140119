@@ -3,7 +3,7 @@
 **Nama:** Prima Sembiring  
 **NIM:** 123140119  
 **Mata Kuliah:** Pemrograman Web RB
-
+*Link Varcel:** uts-pemweb-123140119.vercel.app
 ---
 
 ## Deskripsi Singkat
