@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# 🐾 Animal Facts & Images App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Nama:** Prima Sembiring  
+**NIM:** 123140119  
+**Mata Kuliah:** Pemrograman Web RB
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Deskripsi Singkat
+Aplikasi interaktif berbasis **ReactJS** yang menampilkan **fakta hewan (kucing dan anjing)** serta **galeri gambar acak** dari API publik.  
+Pengguna dapat memilih mode **Dog 🐶** atau **Cat 🐱**, menampilkan **gambar acak**, menyimpan **gambar favorit**, dan melihat **fakta hewan** yang dapat diperbarui dengan tombol *Refresh Facts*.  
 
-### `npm start`
+Aplikasi ini dikembangkan dengan memperhatikan prinsip **modular component**, **state management**, dan **responsive design**, sesuai capaian CPMK0501 & CPMK0502 mata kuliah Pemrograman Web.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Teknologi yang Digunakan
+| Komponen | Teknologi |
+|-----------|------------|
+| Framework | ReactJS (Create React App / Vite compatible) |
+| Styling | CSS murni (Grid, Flexbox, pseudo-class, media queries) |
+| State Management | React Hooks (`useState`, `useEffect`) |
+| HTTP Client | Fetch API |
+| Data Source | Dog CEO API, CatFact API |
+| Deployment | Vercel |
+| Repository | GitHub Public |
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🧩 Fitur Utama
+| No | Fitur | Deskripsi |
+|----|--------|-----------|
+| 1 |  Navigation Switch | Tombol untuk berpindah antara **Dog Mode 🐶** dan **Cat Mode 🐱** |
+| 2 |  Form Breed | Dropdown daftar breed anjing dari API, dengan input jumlah gambar dan validasi |
+| 3 |  Gallery Grid | Tampilan grid responsif untuk gambar hewan acak dengan efek bayangan dan hover |
+| 4 |  Animal Facts Table | Tabel fakta kucing dinamis dengan tombol *Refresh Facts* |
+| 5 |  Favorite List | Menyimpan gambar ke **localStorage**, bisa hapus satu atau semua, tampil di tengah layar |
+| 6 |  Back to Main | Tombol kembali ke tampilan utama dari mode Dog/Cat |
+| 7 |  Deployment Ready | Siap di-deploy ke **Vercel** untuk penilaian online |
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Cara Instalasi & Menjalankan Aplikasi
+```bash
+# 1. Clone repository
+git clone https://github.com/<username>/<repo-name>.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# 2. Masuk ke folder project
+cd dog-cat-facts-app
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# 3. Install dependencies
+npm install
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# 4. Jalankan aplikasi (Vite / CRA)
+npm run dev
+# atau
+npm start
