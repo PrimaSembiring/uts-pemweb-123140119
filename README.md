@@ -3,7 +3,7 @@
 **Nama:** Prima Sembiring  
 **NIM:** 123140119  
 **Mata Kuliah:** Pemrograman Web RB
-**Link Varcel:** uts-pemweb-123140119.vercel.app
+
 ---
 
 ## Deskripsi Singkat
@@ -39,6 +39,9 @@ Aplikasi ini dikembangkan dengan memperhatikan prinsip **modular component**, **
 | 7 |  Deployment Ready | Siap di-deploy ke **Vercel** untuk penilaian online |
 
 ---
+## Link Varcel
+
+**Link Varcel:** uts-pemweb-123140119.vercel.app
 
 ## Cara Instalasi & Menjalankan Aplikasi
 ```bash
